@@ -15,7 +15,8 @@ def menor_nome(nomes):
             pass
         y=z
     curto=curto.split()
-    return curto[0].capitalize
+    nome=curto[0]
+    return nome.capitalize()
 
 nomes=['maria', ' josé ', '   PAULO', 'Catarina   ']
 print(menor_nome(nomes))
